@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ApplicationSystem">
+      <UniqueIdentifier>{154c507b-3417-4313-8c5b-ebc845af601d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{3719376d-a6ae-4977-8128-76a3c9925b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{7eacd5ac-c924-4f0f-9276-cb1e521f481b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Direct3DSystem">
+      <UniqueIdentifier>{ca51fa58-153b-46a5-811a-2ae858a9578b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Font">
+      <UniqueIdentifier>{1fc1a5eb-c5fd-4199-96ab-7a6ed8a4f76d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\InputDevice">
+      <UniqueIdentifier>{1650d531-3085-4b8d-ac83-1ec10e763a31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Sound">
+      <UniqueIdentifier>{909948fe-2cd6-40c9-b4e5-2ff24618b9fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iniFileLoader">
+      <UniqueIdentifier>{53a7d1a5-adfc-4d56-81c4-856fd276e9ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a8cf92de-01ea-4e96-b01b-207a4bd71731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{74a4b81e-4b2b-4bac-bb44-40d4eafacfcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\View">
+      <UniqueIdentifier>{a35053e5-f775-424a-b5eb-2a7ec7f26fd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{99d09a25-a00e-47df-9677-b6959028ce83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Light">
+      <UniqueIdentifier>{3e91f4bc-1e1a-4b22-9f70-2ea4b4c9924e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence">
+      <UniqueIdentifier>{d3293536-a6d7-4392-9674-c4188a725def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\FrameWork">
+      <UniqueIdentifier>{819efbe1-9359-4916-8030-f61957d5ca6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\CPUClock">
+      <UniqueIdentifier>{02acac02-7f56-4aeb-988b-ad1e4510de43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\FPSCounter">
+      <UniqueIdentifier>{a966d12e-eb77-4673-9c23-c2d33af12ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Mesh">
+      <UniqueIdentifier>{7fb356c0-d16b-4d79-a1c3-3e5bb7079cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\GameMain">
+      <UniqueIdentifier>{19896cf5-8405-4df5-b726-8c1f1c3e6bb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{0b1d5212-417e-4132-9bd6-d6bad635ee3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Stage">
+      <UniqueIdentifier>{9ace38f9-1ad5-4643-ba31-8e652ab66668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Stage\Stage1">
+      <UniqueIdentifier>{27c64da3-5990-46c9-a464-36060637a62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\SkyDome">
+      <UniqueIdentifier>{67c6ea6e-5172-4b26-8f76-c72215f9b089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\AnimMesh">
+      <UniqueIdentifier>{30a5fbed-557b-4f71-bf6a-b7afa9ddd385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character">
+      <UniqueIdentifier>{db6c027c-1c41-445c-a73b-1bb362df137c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Character\Rock">
+      <UniqueIdentifier>{2c6b0f3b-4a71-4d96-b3a2-76e33c4e4d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce">
+      <UniqueIdentifier>{f0a0f47a-733b-4fd6-85e4-f524835a2fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Define">
+      <UniqueIdentifier>{2ad0616f-9955-4200-8af0-c43c991f5a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Enum">
+      <UniqueIdentifier>{3416e28a-9887-4652-a9e9-9713488e8d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Struct">
+      <UniqueIdentifier>{f2fd6c2c-9cad-4103-a1d4-e773ec62201d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\UniqueData">
+      <UniqueIdentifier>{30ae3c06-ba6b-4fe9-a863-841f58fdabea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\SingletonOwner">
+      <UniqueIdentifier>{8354044e-ef2f-437c-bf36-ea597eae1ba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Param">
+      <UniqueIdentifier>{877be12f-2f9d-4476-aa6e-0b0234082a98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phyisics">
+      <UniqueIdentifier>{f2633d29-8ab3-4dd9-a43f-120bf130376f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\ScreenEffect">
+      <UniqueIdentifier>{15d20dba-26b5-4956-873c-71e12b49db8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\SequenceChanger">
+      <UniqueIdentifier>{30e27911-b2f7-47a7-aba5-d66c70f9e792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect">
+      <UniqueIdentifier>{0ce1822f-ef6d-4507-b044-7ed4ac2bc959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem">
+      <UniqueIdentifier>{b80ac0a7-1a6f-411a-9ec5-4ed22afe4231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\Title">
+      <UniqueIdentifier>{d5d5e5c0-b815-48a9-aac7-e93fdbeab6a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Texture">
+      <UniqueIdentifier>{8684b191-615c-4f8a-8c6c-8c0769f6e9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\FileData">
+      <UniqueIdentifier>{682f0801-f3ca-46db-820f-186277362420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\Result">
+      <UniqueIdentifier>{4205a6ee-b021-4f76-baad-66df045e60e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle">
+      <UniqueIdentifier>{5dab39fe-a3fd-42ba-accd-c8c08dd010a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\ApplicationData">
+      <UniqueIdentifier>{86040bdf-8f55-407c-93dc-9ff2b6839b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ApplicationSystem\WindowsApplication">
+      <UniqueIdentifier>{fb7180fe-eedf-4f23-b9c2-7de9724d40d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjectManager">
+      <UniqueIdentifier>{38daa02b-85ae-44cf-9e99-4a795bc254f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Dead">
+      <UniqueIdentifier>{41facb74-283b-409f-b420-47f779a7a492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\Option">
+      <UniqueIdentifier>{574b4b54-4e4f-43b0-b227-14b5517f27a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Timer">
+      <UniqueIdentifier>{096b34c4-993c-4e88-b46d-cc3fbac63dd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Stock">
+      <UniqueIdentifier>{441589f1-c45c-4054-ba63-4c67be94a964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\ScoreManager">
+      <UniqueIdentifier>{e8293cb0-f2ee-450e-b789-0e3656bdfa0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\SelectCursor">
+      <UniqueIdentifier>{b7c3cbb8-6779-4106-ae0f-0ffad8064170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\CorrectionValue">
+      <UniqueIdentifier>{3bd090d1-e6f5-4b44-b035-2a06c18ec62f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Hit">
+      <UniqueIdentifier>{46dbd2c5-bf38-4541-8525-514cdbfac158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Title">
+      <UniqueIdentifier>{e467eb6b-c3db-462d-9a49-0d6e847c0ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Hit">
+      <UniqueIdentifier>{b064ef34-9afc-4c66-a913-a779667117fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Smoke">
+      <UniqueIdentifier>{1946ec1d-1080-4bf2-b324-758e4476c2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Computer">
+      <UniqueIdentifier>{852fbff9-87bf-4d50-9e5b-6258a1e718bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\DamageData">
+      <UniqueIdentifier>{26e6bfea-dbf6-4918-9807-a3ef68be34fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sequence\Credit">
+      <UniqueIdentifier>{df3cc5de-dd25-4614-a1fd-0fc41cbe7ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GUIManager">
+      <UniqueIdentifier>{4339fe85-1172-450a-a138-5623baae394a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{2ec7c512-ee93-45c4-ae7e-a55e214dd7dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce\Param">
+      <UniqueIdentifier>{6d81ffe1-484d-4bd3-9d0e-ed3c9f03e36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Particle\Snow">
+      <UniqueIdentifier>{f126cf34-8652-4ea7-a98c-d6e03fe5b9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resouce\ShaderFile">
+      <UniqueIdentifier>{cd0b4d0a-824b-4315-87cb-2c9aea727de6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\ShaderManager">
+      <UniqueIdentifier>{fd9393bb-0bf7-43d4-a38c-bf7beb297a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\WaveMap">
+      <UniqueIdentifier>{68ae6ce4-4768-488a-b9e3-42f96ccfab44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\Burst">
+      <UniqueIdentifier>{b378ef4b-7bc3-4505-94d3-26395beeed32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\BlurFilter">
+      <UniqueIdentifier>{3b2ef746-c581-4ce9-b138-9323131ee0fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader\DepthBuffer">
+      <UniqueIdentifier>{ee5c02b8-ddf3-4a92-8435-bad41f03122c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Computer\AILevel1">
+      <UniqueIdentifier>{ca03dc0f-ec23-4201-8eca-28a60758f6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSystem\Computer\AILevel2">
+      <UniqueIdentifier>{b542540c-a3f0-43c3-ae50-70b50c962c83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{0874b30f-5323-43d6-bd73-73c81fef4f9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item\Bomb">
+      <UniqueIdentifier>{48d7b313-b79c-4503-9eb1-6f0899d467bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjectManager\Object2D">
+      <UniqueIdentifier>{32c486c7-8159-4dad-9585-d19b93cc4c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\ObjectManager\Object3D">
+      <UniqueIdentifier>{3999af95-e401-44b5-9595-a671e3829a26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\BombSmoke">
+      <UniqueIdentifier>{9d4c2c67-ec9e-4d99-95c1-5bc4fa56d6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Sound\DirectSound">
+      <UniqueIdentifier>{bc557635-5a67-4b1c-87a2-f91263aa4f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Sound\SoundPlayer">
+      <UniqueIdentifier>{96aa6978-8a25-40bc-9f3a-84240a1a8a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\InputDevice\DeviceManager">
+      <UniqueIdentifier>{6e2001d7-9774-401b-82be-fa13a37782cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\InputDevice\InputMask">
+      <UniqueIdentifier>{e9f262a0-7202-4dfd-a88d-167dd0d516e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\InputDevice\InputLib">
+      <UniqueIdentifier>{e2572be9-6caa-4ee9-807d-11712ea41ca0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\AnimMesh\AnimMesh">
+      <UniqueIdentifier>{b97d68d1-7f96-43d8-b20e-e12523abe508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\AnimMesh\AnimHierarchy">
+      <UniqueIdentifier>{1c5145bc-668c-4676-8011-8ed911c33c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Direct3DSystem\Data">
+      <UniqueIdentifier>{d8c3f9af-97a9-479a-aa7a-b1f726da233d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Direct3DSystem\System">
+      <UniqueIdentifier>{3689eac0-0744-4def-ab81-d3986ba90fdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Texture\Lib">
+      <UniqueIdentifier>{0222077b-8562-495b-b987-3b74d96c78d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX\Texture\Manager">
+      <UniqueIdentifier>{0d96a9ca-6d06-4d94-8911-f4fe65d48999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Effect\ExplosionSmoke">
+      <UniqueIdentifier>{d2e9c627-83c7-4204-b150-169ebd03cb61}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX\Font.cpp">
+      <Filter>DirectX\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="iniFileLoader\iniFileLoaderBase.cpp">
+      <Filter>iniFileLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\View.cpp">
+      <Filter>DirectX\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Math.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Light.cpp">
+      <Filter>DirectX\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\FrameWork.cpp">
+      <Filter>ApplicationSystem\FrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\FPSCounter.cpp">
+      <Filter>ApplicationSystem\FPSCounter</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Mesh.cpp">
+      <Filter>DirectX\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\GameMain.cpp">
+      <Filter>Sequence\GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Stage\Stage1.cpp">
+      <Filter>Object\Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\SkyDome\SkyDome.cpp">
+      <Filter>Object\SkyDome</Filter>
+    </ClCompile>
+    <ClCompile Include="Character\Rock.cpp">
+      <Filter>Character\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\UniqueData.cpp">
+      <Filter>Common\UniqueData</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\SingletonOwner.cpp">
+      <Filter>Common\SingletonOwner</Filter>
+    </ClCompile>
+    <ClCompile Include="Phyisics\Collision.cpp">
+      <Filter>Phyisics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\ScreenEffect.cpp">
+      <Filter>Sequence\ScreenEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\SequenceChanger.cpp">
+      <Filter>Sequence\SequenceChanger</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Title.cpp">
+      <Filter>Sequence\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\FileData.cpp">
+      <Filter>Common\FileData</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\ApplicationData.cpp">
+      <Filter>ApplicationSystem\ApplicationData</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationSystem\WindowsApplication.cpp">
+      <Filter>ApplicationSystem\WindowsApplication</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\ObjectManager.cpp">
+      <Filter>Object\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\DeadEffect.cpp">
+      <Filter>Object\Effect\Dead</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Option.cpp">
+      <Filter>Sequence\Option</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\Stock.cpp">
+      <Filter>GameSystem\Stock</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\Timer.cpp">
+      <Filter>GameSystem\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\ScoreManager.cpp">
+      <Filter>GameSystem\ScoreManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Result.cpp">
+      <Filter>Sequence\Result</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\SelectCursor.cpp">
+      <Filter>Sequence\SelectCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\CorrectionValue.cpp">
+      <Filter>GameSystem\CorrectionValue</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\TitleParticle.cpp">
+      <Filter>Object\Particle\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\HitParticle.cpp">
+      <Filter>Object\Particle\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\HitEffect.cpp">
+      <Filter>Object\Effect\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\SmokeEffect.cpp">
+      <Filter>Object\Effect\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\DamageData.cpp">
+      <Filter>GameSystem\DamageData</Filter>
+    </ClCompile>
+    <ClCompile Include="Sequence\Credit.cpp">
+      <Filter>Sequence\Credit</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\GUI\GUIManager.cpp">
+      <Filter>Object\GUIManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\Shader.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Particle\SnowParticle.cpp">
+      <Filter>Object\Particle\Snow</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\ShaderManager.cpp">
+      <Filter>Shader\ShaderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\WaveShader.cpp">
+      <Filter>Shader\WaveMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Item\Bomb.cpp">
+      <Filter>Object\Item\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\BurstEffect.cpp">
+      <Filter>Object\Effect\Burst</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\BlurFilter.cpp">
+      <Filter>Shader\BlurFilter</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader\DepthBuffer.cpp">
+      <Filter>Shader\DepthBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Stage\Tree.cpp">
+      <Filter>Object\Stage\Stage1</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\AILevel1.cpp">
+      <Filter>GameSystem\Computer\AILevel1</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\AILevel2.cpp">
+      <Filter>GameSystem\Computer\AILevel2</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSystem\Computer.cpp">
+      <Filter>GameSystem\Computer</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object2D.cpp">
+      <Filter>Object\ObjectManager\Object2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object3D.cpp">
+      <Filter>Object\ObjectManager\Object3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\BombSmokeEffect.cpp">
+      <Filter>Object\Effect\BombSmoke</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DirectSound.cpp">
+      <Filter>DirectX\Sound\DirectSound</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\SoundPlayer.cpp">
+      <Filter>DirectX\Sound\SoundPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\DeviceManager.cpp">
+      <Filter>DirectX\InputDevice\DeviceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\InputMask.cpp">
+      <Filter>DirectX\InputDevice\InputMask</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\InputLib.cpp">
+      <Filter>DirectX\InputDevice\InputLib</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\AnimMesh.cpp">
+      <Filter>DirectX\AnimMesh\AnimMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\AnimHierarchy.cpp">
+      <Filter>DirectX\AnimMesh\AnimHierarchy</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Direct3DData.cpp">
+      <Filter>DirectX\Direct3DSystem\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\Direct3DSystem.cpp">
+      <Filter>DirectX\Direct3DSystem\System</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\TextureLib.cpp">
+      <Filter>DirectX\Texture\Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX\TextureManager.cpp">
+      <Filter>DirectX\Texture\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Effect\ExplosionSmokeEffect.cpp">
+      <Filter>Object\Effect\ExplosionSmoke</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Utility.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Font.h">
+      <Filter>DirectX\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="iniFileLoader\iniFileLoaderBase.h">
+      <Filter>iniFileLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\View.h">
+      <Filter>DirectX\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Light.h">
+      <Filter>DirectX\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\ISequence.h">
+      <Filter>Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\Rdtsc.h">
+      <Filter>ApplicationSystem\CPUClock</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\FrameWork.h">
+      <Filter>ApplicationSystem\FrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\FPSCounter.h">
+      <Filter>ApplicationSystem\FPSCounter</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Mesh.h">
+      <Filter>DirectX\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\GameMain.h">
+      <Filter>Sequence\GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\IObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Stage\StageFactory.h">
+      <Filter>Object\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Stage\Stage1.h">
+      <Filter>Object\Stage\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\SkyDome\SkyDome.h">
+      <Filter>Object\SkyDome</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\IPlayer.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\Rock.h">
+      <Filter>Character\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\CharacterFactory.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\CharacterParam.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\STDXDefine.h">
+      <Filter>Common\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\STDXEnum.h">
+      <Filter>Common\Enum</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\STDXStruct.h">
+      <Filter>Common\Struct</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CommonLib.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\UniqueData.h">
+      <Filter>Common\UniqueData</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SingletonOwner.h">
+      <Filter>Common\SingletonOwner</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CommonParam.h">
+      <Filter>Common\Param</Filter>
+    </ClInclude>
+    <ClInclude Include="Phyisics\Collision.h">
+      <Filter>Phyisics</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\ScreenEffect.h">
+      <Filter>Sequence\ScreenEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\SequenceChanger.h">
+      <Filter>Sequence\SequenceChanger</Filter>
+    </ClInclude>
+    <ClInclude Include="Character\Motion.h">
+      <Filter>Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StringDefine.h">
+      <Filter>Common\Define</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Title.h">
+      <Filter>Sequence\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\ApplicationData.h">
+      <Filter>ApplicationSystem\ApplicationData</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationSystem\WindowsApplication.h">
+      <Filter>ApplicationSystem\WindowsApplication</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\ObjectManager.h">
+      <Filter>Object\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\DeadEffect.h">
+      <Filter>Object\Effect\Dead</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Option.h">
+      <Filter>Sequence\Option</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\Stock.h">
+      <Filter>GameSystem\Stock</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\Timer.h">
+      <Filter>GameSystem\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\ScoreManager.h">
+      <Filter>GameSystem\ScoreManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Result.h">
+      <Filter>Sequence\Result</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\SelectCursor.h">
+      <Filter>Sequence\SelectCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\CorrectionValue.h">
+      <Filter>GameSystem\CorrectionValue</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\TitleParticle.h">
+      <Filter>Object\Particle\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\HitParticle.h">
+      <Filter>Object\Particle\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\HitEffect.h">
+      <Filter>Object\Effect\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\SmokeEffect.h">
+      <Filter>Object\Effect\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\DamageData.h">
+      <Filter>GameSystem\DamageData</Filter>
+    </ClInclude>
+    <ClInclude Include="Sequence\Credit.h">
+      <Filter>Sequence\Credit</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\GUI\GUIManager.h">
+      <Filter>Object\GUIManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Shader.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Particle\SnowParticle.h">
+      <Filter>Object\Particle\Snow</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ShaderManager.h">
+      <Filter>Shader\ShaderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\WaveShader.h">
+      <Filter>Shader\WaveMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\FileData.h">
+      <Filter>Common\FileData</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\Bomb.h">
+      <Filter>Object\Item\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\BurstEffect.h">
+      <Filter>Object\Effect\Burst</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\BlurFilter.h">
+      <Filter>Shader\BlurFilter</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\DepthBuffer.h">
+      <Filter>Shader\DepthBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Stage\Tree.h">
+      <Filter>Object\Stage\Stage1</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\AILevel1.h">
+      <Filter>GameSystem\Computer\AILevel1</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\AILevel2.h">
+      <Filter>GameSystem\Computer\AILevel2</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\IComputer.h">
+      <Filter>GameSystem\Computer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\Computer.h">
+      <Filter>GameSystem\Computer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSystem\AILevelFactory.h">
+      <Filter>GameSystem\Computer</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Item\ItemFactory.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object2D.h">
+      <Filter>Object\ObjectManager\Object2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object3D.h">
+      <Filter>Object\ObjectManager\Object3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\BombSmokeEffect.h">
+      <Filter>Object\Effect\BombSmoke</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DirectSound.h">
+      <Filter>DirectX\Sound\DirectSound</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\SoundPlayer.h">
+      <Filter>DirectX\Sound\SoundPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\DeviceManager.h">
+      <Filter>DirectX\InputDevice\DeviceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\InputMask.h">
+      <Filter>DirectX\InputDevice\InputMask</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\InputLib.h">
+      <Filter>DirectX\InputDevice\InputLib</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\AnimMesh.h">
+      <Filter>DirectX\AnimMesh\AnimMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\AnimHierarchy.h">
+      <Filter>DirectX\AnimMesh\AnimHierarchy</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Direct3DData.h">
+      <Filter>DirectX\Direct3DSystem\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\Direct3DSystem.h">
+      <Filter>DirectX\Direct3DSystem\System</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\TextureLib.h">
+      <Filter>DirectX\Texture\Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX\TextureManager.h">
+      <Filter>DirectX\Texture\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Effect\ExplosionSmokeEffect.h">
+      <Filter>Object\Effect\ExplosionSmoke</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CharacterParam.ini">
+      <Filter>Resouce\Param</Filter>
+    </None>
+    <None Include="Param.ini">
+      <Filter>Resouce\Param</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Data\Shader\SkyDome.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\LightBloom.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\BlurFilter.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\ZShadowMap.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\Wave.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\SkinMeshTest.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\ZSkinShadowMap.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\StandardShader.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+    <FxCompile Include="Data\Shader\ParallaxMapping.fx">
+      <Filter>Resouce\ShaderFile</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
